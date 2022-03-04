@@ -3,16 +3,18 @@ import logo from './logo.svg';
 import Componente from './components/Componente';
 import Propiedades from './components/Propiedades';
 import './App.css';
+import Estado from './components/Estado';
+import RenderizadoCondicional from './components/RenderizadoCondicional';
+import RenderizadoElementos from './components/RenderizadoElementos';
+import Eventos from './components/Eventos';
 
 //JSX
 function App() {
-  let nombre = "diego";
   return (
     <div className="App">
       <header className="App-header">
         <section>
           <img src={logo} className="App-logo" alt="logo" />
-          <h1>{nombre}</h1>
           <p>
             Edit <code>src/App.js</code> and save to reload.
           </p>
@@ -38,6 +40,14 @@ function App() {
           elementoReact={<i>Esto es un elemento React</i>}
           componenteReact={<Componente msg="Soy un componente pasado como prop"/>}
           />
+          <hr/>
+          <Estado/>
+          <hr/>
+          <RenderizadoCondicional/>
+          <hr/>
+          <RenderizadoElementos/>
+          <hr/>
+          <Eventos/>
         </section>
       </header>    
     </div>  
