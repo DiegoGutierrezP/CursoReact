@@ -6,7 +6,8 @@ import './App.css';
 import Estado from './components/Estado';
 import RenderizadoCondicional from './components/RenderizadoCondicional';
 import RenderizadoElementos from './components/RenderizadoElementos';
-import Eventos from './components/Eventos';
+import {EventosES6,EventosES7,MasSobreEventos} from './components/Eventos';
+import ComunicacionComponentes from './components/ComunicacionComponentes';
 
 //JSX
 function App() {
@@ -47,7 +48,13 @@ function App() {
           <hr/>
           <RenderizadoElementos/>
           <hr/>
-          <Eventos/>
+          <EventosES6/>
+          <hr/>
+          <EventosES7/>
+          <hr/>
+          <MasSobreEventos/>
+          <hr/>
+          <ComunicacionComponentes/>
         </section>
       </header>    
     </div>  
