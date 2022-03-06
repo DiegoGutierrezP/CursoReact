@@ -8,6 +8,7 @@ import RenderizadoCondicional from './components/RenderizadoCondicional';
 import RenderizadoElementos from './components/RenderizadoElementos';
 import {EventosES6,EventosES7,MasSobreEventos} from './components/Eventos';
 import ComunicacionComponentes from './components/ComunicacionComponentes';
+import CicloVida from './components/CicloVida';
 
 //JSX
 function App() {
@@ -55,6 +56,8 @@ function App() {
           <MasSobreEventos/>
           <hr/>
           <ComunicacionComponentes/>
+          <hr/>
+          <CicloVida/>
         </section>
       </header>    
     </div>  
