@@ -18,6 +18,7 @@ import HooksPersonalizados from './components/HooksPersonalizados';
 import Referencias from './components/Referencias';
 import Formularios from './components/Formularios';
 import Estilos from './components/Estilos';
+import ComponetesEstilizados from './components/ComponentesEstilizados';
 
 //JSX
 function App() {
@@ -85,6 +86,8 @@ function App() {
           <Formularios/>
           <hr/>
           <Estilos/>
+          <hr/>
+          <ComponetesEstilizados/>
           <br/><br/>
         </section>
       </header>    
